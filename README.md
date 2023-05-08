@@ -25,6 +25,10 @@ npm install
 
 Explore the tests folder: 
 
+
+![folders](https://user-images.githubusercontent.com/123253590/236919981-d754779d-fac9-4c59-b863-90b8ed4c1602.jpg)
+
+
 # Description of the tests and types
    ### End to End (E2E) make a donation.test.ts
    - I have limited the test to only run on the Chromium browser. It can be configured to run across more by uncommenting the browsers under projects in the playwright.config.ts file. 
