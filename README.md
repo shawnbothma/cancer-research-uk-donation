@@ -15,7 +15,7 @@ To run the tests in Visual Studio, you'll need to have the following software in
 From VS Code terminal we need to:
 1. Clone the repository 
 ```
-git clone https://github.com/shawnbothma/cancer-research-uk-donation
+git clone https://github.com/shawnbothma/cancer-research-uk-donation.git
 ```
 2. Install npm(node package manager)
 ```
