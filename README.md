@@ -17,14 +17,13 @@ From VS Code terminal we need to:
 ```
 git clone https://github.com/shawnbothma/cancer-research-uk-donation.git
 ```
-2. Install npm(node package manager)
+2. Install npm(node package manager) Always make sure you are in the cloned folder.
 ```
 npm install
 ```
 # Finding the Tests
 
 Explore the tests folder: 
-INSERT PICTURE HERE 
 
 # Description of the tests and types
    ### End to End (E2E) make a donation.test.ts
