@@ -21,7 +21,7 @@ git clone https://github.com/shawnbothma/cancer-research-uk-donation.git
 ```
 npm install
 ```
-# Finding the Tests
+# Finding the tests
 
 Explore the tests folder: 
 
