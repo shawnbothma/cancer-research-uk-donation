@@ -1,0 +1,1 @@
+// Class for Your Details Page for Page Object to go here

@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@axe-core/playwright": "^4.7.0",
+    "lighthouse": "^9.6.8",
+    "playwright-lighthouse": "^3.0.0"
+  }
+}
