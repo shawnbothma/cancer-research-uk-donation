@@ -26,7 +26,8 @@ npm install
 Explore the tests folder: 
 
 
-![folders](https://user-images.githubusercontent.com/123253590/236919981-d754779d-fac9-4c59-b863-90b8ed4c1602.jpg)
+![folders](https://github.com/shawnbothma/cancer-research-uk-donation/assets/123253590/696b2476-9619-4434-8934-dae225af279a)
+
 
 
 # Description of the tests and types
@@ -35,7 +36,8 @@ Explore the tests folder:
    
      When the same credit card details are used in quick succession the tests become flaky, presume it's due to security. If this happens please rerun the test after a few minutes.
 
-     
+     ![CardError](https://github.com/shawnbothma/cancer-research-uk-donation/assets/123253590/e98aee9c-124a-46b8-8619-7396bab94811)
+
 
      The Donation Reference and Transaction Id are printed to the console (terminal) for reference.
    
@@ -95,4 +97,8 @@ Once executed the test results can be found in the playwright-report & test-resu
 To complete the E2E test you can view the email sent which contains the donation reference:
 
 Go to https://www.mailinator.com and view the public inbox for auto-pws@mailinator.com
+
+Example of HTML report
+
+![TestReport](https://github.com/shawnbothma/cancer-research-uk-donation/assets/123253590/09be54dc-f3ed-437f-b91c-1acad449b5da)
 
