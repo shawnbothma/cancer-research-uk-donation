@@ -6,8 +6,8 @@ Your task is to write an automated test for making a donation to Cancer Research
 Make a card donation using test data attached and verify that the donation reference displayed on the thank you page is same as that in response of the transaction API call.
 
 # Prerequisites
-To run the tests in Visual Studio, you'll need to have the following software installed on your machine:
-- Visual Studio 
+To run the tests in Visual Studio Code, you'll need to have the following software installed on your machine:
+- Visual Studio Code
 - Node.js 
 - Git
 
@@ -33,7 +33,9 @@ Explore the tests folder:
    ### End to End (E2E) make a donation.test.ts
    - I have limited the test to only run on the Chromium browser. It can be configured to run across more by uncommenting the browsers under projects in the playwright.config.ts file. 
    
-     When the same credit card details are used in quick succession the tests become flaky, presume it's due to security. 
+     When the same credit card details are used in quick succession the tests become flaky, presume it's due to security. If this happens please rerun the test after a few minutes.
+
+     
 
      The Donation Reference and Transaction Id are printed to the console (terminal) for reference.
    
@@ -92,6 +94,5 @@ Once executed the test results can be found in the playwright-report & test-resu
 
 To complete the E2E test you can view the email sent which contains the donation reference:
 
-```
-Go to https://www.mailinator.com/ and view the public inbox for auto-pws@mailinator.com.
- ```
+Go to https://www.mailinator.com and view the public inbox for auto-pws@mailinator.com
+

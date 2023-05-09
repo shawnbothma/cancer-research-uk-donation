@@ -1,6 +1,6 @@
 import { test, expect, devices } from '@playwright/test';
 
-    test('Your Donation Details visual comparison on Chrome Desktop', async ({ page }) => {
+    test('Your Donation on Chrome Desktop', async ({ page }) => {
         await page.setViewportSize(devices["Desktop Chrome"].viewport);
         // Go to Cancer Research UK Donation
         await page.goto('support-us/your-donation');
@@ -11,7 +11,7 @@ import { test, expect, devices } from '@playwright/test';
         await page.close();
     });
 
-    test('Your Details visual comparison on Galaxy S9+ portrait', async ({ page }) => {
+    test('Your Details on Galaxy S9+ portrait', async ({ page }) => {
         await page.setViewportSize(devices["Galaxy S9+"].viewport);
         // Go to Cancer Research UK Donation
         await page.goto('support-us/details');
