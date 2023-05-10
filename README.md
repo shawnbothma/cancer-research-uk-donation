@@ -21,6 +21,10 @@ git clone https://github.com/shawnbothma/cancer-research-uk-donation.git
 ```
 npm install
 ```
+3. Install Playwright
+```
+npm init playwright@latest
+```
 # Finding the tests
 
 Explore the tests folder: 
